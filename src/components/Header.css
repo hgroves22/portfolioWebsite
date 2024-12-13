@@ -1,0 +1,44 @@
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #1c1c1c;
+  color: white;
+  display: flex;
+  align-items: center; /* Vertically centers the items */
+  padding: 0 20px; /* Adds padding to left and right */
+  height: 125px;
+  font-family: Georgia;
+}
+
+.headerName {
+  font-size: 3.5rem;
+}
+
+.nav-links {
+  position: fixed; /* Absolute positioning to push it to the right */
+  right: 60px; /* Keeps it 20px from the right edge of the page */
+  transform: translateY(-50%); /* Moves it up by 50% of the height to center it */
+  list-style: none;
+  display: flex;
+  gap: 30px; /* Adds space between navigation items */
+  margin: 0;
+}
+
+.nav-links li {
+  display: inline;
+  font-size: 2rem;
+  text-decoration: none;
+  color: white;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 2rem;
+}
+
+.nav-links a:hover {
+  color: #00bcd4; /* Optional hover effect */
+}

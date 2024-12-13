@@ -1,6 +1,5 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import Header from './Header.jsx'
+import Header from './components/Header.jsx'
 
 function App() {
   const [count, setCount] = useState(0)
