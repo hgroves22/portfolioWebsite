@@ -1,3 +1,39 @@
 .hero {
-  padding-top: 130px;
+  display: flex;
+  justify-content: center;
+  line-height: 10px;
+  margin: 0;
+  color: #BDC3C7;
+  height: 1150px;
+}
+.hero-content {
+  padding-top: 300px;
+  padding-left: 70px;
+}
+
+.headshot {
+  padding-top: 200px;
+  padding-left: 75px;
+  height: 500px;
+  border-radius: 100%;
+}
+
+.title {
+  font-size: 6rem;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+.social-medias a {
+  padding-right: 50px;
+}
+
+p {
+  font-size: 1.5rem;
+}
+
+.socials-desc {
+  padding-top: 250px;
 }
