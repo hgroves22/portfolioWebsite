@@ -2,6 +2,7 @@ header {
   position: fixed;
   top: 0;
   left: 0;
+  right: 0;
   width: 100%;
   background-color: #BDC3C7;
   color: #34495E;
@@ -42,3 +43,19 @@ header {
   color: #34495E;/* Optional hover effect */
 }
 
+.nav-links a:hover {
+  color: black;/* Optional hover effect */
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+
+
+@media (max-width: 1200px) {
+  .headerName {
+    font-size: 28px;
+  }
+  .nav-links a {
+    font-size: 18px;
+  }
+}

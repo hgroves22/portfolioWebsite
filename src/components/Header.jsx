@@ -4,8 +4,8 @@ import './Header.css';
 function Header() {
 
   return(
-    <header>
-      <h1 class = "headerName">Henry Groves</h1>
+    <header className='headerComp'>
+      <h1 className = "headerName">Henry Groves</h1>
       <nav className="items">
         <ul className = "nav-links">
           <li><a href="">Home</a></li>
