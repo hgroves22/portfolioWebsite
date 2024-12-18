@@ -9,7 +9,7 @@ function Header() {
       <h1 className = "headerName">Henry Groves</h1>
       <nav className="items">
         <ul className = "nav-links">
-          <li><Link to="/hero">Home</Link></li>
+          <li><Link to="/home">Home</Link></li>
           <li>|</li>
           <li><Link to="/resume">Resume</Link></li>
           <li>|</li>
