@@ -46,10 +46,13 @@
   display: flex;
   justify-content: center;
 }
+
+.education-container .resume-info:first-of-type {
+  padding-top: 34px;
+}
 .resume-info {
-  position: fixed;
-  top: 450px;
   padding-left: 50px;
+  padding-right: 10px;
 }
 .resume-container .education-container,
 .resume-container .experience-container,
@@ -60,4 +63,13 @@
 
 .page {
   background-color: #34495E;
+}
+
+@media (max-width: 1900px) {
+  .sub-header {
+    font-size: 2.5rem;
+  }
+  p {
+    font-size: 20px;
+  }
 }
