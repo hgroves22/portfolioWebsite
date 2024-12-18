@@ -2,9 +2,10 @@ header {
   position: fixed;
   top: 0;
   left: 0;
+  right: 0;
   width: 100%;
-  background-color: #1c1c1c;
-  color: white;
+  background-color: #BDC3C7;
+  color: #34495E;
   display: flex;
   align-items: center; /* Vertically centers the items */
   padding: 0 20px; /* Adds padding to left and right */
@@ -24,21 +25,40 @@ header {
   display: flex;
   gap: 30px; /* Adds space between navigation items */
   margin: 0;
+  color: #34495E;
 }
 
 .nav-links li {
   display: inline;
   font-size: 2rem;
   text-decoration: none;
-  color: white;
 }
 
 .nav-links a {
-  color: white;
   text-decoration: none;
   font-size: 2rem;
 }
 
+.nav-links a:visited {
+  color: #34495E;/* Optional hover effect */
+}
+
 .nav-links a:hover {
-  color: #00bcd4; /* Optional hover effect */
+  color: black;/* Optional hover effect */
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+
+
+@media (max-width: 1200px) {
+  .headerName {
+    font-size: 28px;
+  }
+  .nav-links a {
+    font-size: 18px;
+  }
+  .nav-links a:hover {
+    font-size: 1.5rem;
+  }
 }
