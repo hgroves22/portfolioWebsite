@@ -4,7 +4,7 @@ header {
   left: 0;
   right: 0;
   width: 100%;
-  background-color: #BDC3C7;
+  background-color: #D1D8D9;
   color: #34495E;
   display: flex;
   align-items: center; /* Vertically centers the items */
@@ -14,7 +14,7 @@ header {
 }
 
 .headerName {
-  font-size: 3.5rem;
+  font-size: 3.7rem;
 }
 
 .nav-links {

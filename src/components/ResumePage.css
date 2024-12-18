@@ -1,0 +1,32 @@
+.resume-container {
+  color: #BDC3C7;
+  height: 1000px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 60px;
+  padding-top: 250px;
+  padding-right: 100px;
+  padding-left: 100px;
+  min-width: 1500px;
+}
+
+.sub-header {
+  font-size: 3.5rem;
+  padding-top: 20px;
+  line-height: 10px;
+  color: #34495E;
+  display: flex;
+  justify-content: center;
+}
+
+.resume-info {
+  padding-left: 10px;
+}
+
+.resume-container .education-container,
+.resume-container .experience-container,
+.resume-container .technical-container {
+  background-color: #f8f8f8;
+  border-radius: 40px;
+  max-width: 1000px;
+}
