@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'; // Importing Router and Route components
+import { BrowserRouter as Router, Route, Routes, Navigate } from 'react-router-dom';
 import './components/App.css'
 import Header from './components/Header.jsx'
 import Hero from './components/Hero.jsx'
@@ -14,6 +14,7 @@ function App() {
         <Header />
 
         <Routes>
+          <Route path="/" element={<Navigate to="/home" replace />} />
           <Route path="/home" element={<Hero />} />
           <Route path="/resume" element={<Resume />} />
         </Routes>
