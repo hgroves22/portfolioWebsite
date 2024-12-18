@@ -1,9 +1,35 @@
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.fade-in1 {
+  animation: fadeIn 1s ease-in-out;
+}
+
+.fade-in2 {
+  animation: fadeIn 1s ease-in-out;
+  animation-delay: 1s;
+  animation-fill-mode: forwards;
+  opacity: 0;
+}
+
+.fade-in3 {
+  animation: fadeIn 1s ease-in-out;
+  animation-delay: 2s;
+  animation-fill-mode: forwards;
+  opacity: 0;
+}
 .resume-container {
   color: #BDC3C7;
   height: 1000px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 60px;
+  gap: 80px;
   padding-top: 250px;
   padding-bottom: 150px;
   padding-right: 70px;
@@ -21,7 +47,9 @@
   justify-content: center;
 }
 .resume-info {
-  padding-left: 10px;
+  position: fixed;
+  top: 450px;
+  padding-left: 50px;
 }
 .resume-container .education-container,
 .resume-container .experience-container,

@@ -8,18 +8,18 @@ function Resume() {
   return(
     <div className='page'>
       <div className="resume-container">
-        <div className="education-container">
+        <div className="education-container fade-in1">
           <h2 className="sub-header">EDUCATION</h2>
           <br></br>
           <p className="resume-info">something something seomthing</p>
           <p className="resume-info">something something seomthing</p>
         </div>
-        <div className="experience-container">
+        <div className="experience-container fade-in2">
           <h2 className="sub-header">PROFESSIONAL</h2>
           <h2 className="sub-header">EXPERIENCE</h2>
           <p className="resume-info">something something seomthing</p>
         </div>
-        <div className="technical-container">
+        <div className="technical-container fade-in3">
           <h2 className="sub-header">TECHNICAL</h2>
           <h2 className="sub-header">SKILLS</h2>
           <p className="resume-info">something something seomthing</p>
