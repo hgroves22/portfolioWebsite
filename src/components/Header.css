@@ -49,9 +49,19 @@ header {
   font-weight: bold;
 }
 
-
-
 @media (max-width: 1200px) {
+  .headerName {
+    font-size: 45px;
+  }
+  .nav-links a {
+    font-size: 25px;
+  }
+  .nav-links a:hover {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 1000px) {
   .headerName {
     font-size: 28px;
   }
