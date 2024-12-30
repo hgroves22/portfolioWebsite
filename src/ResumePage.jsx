@@ -30,7 +30,7 @@ function Resume() {
             <strong>Honors: </strong>
             <p className="education-honors-list">
               Michael Ice Memorial Scholarship
-              <p className="list-desc">- Issued by the Robins School of Business Faculty - September 2022</p>
+              <p className="list-desc">- Issued September 2022 by the Robins School of Business Faculty</p>
               <p className="list-desc">- Awarded based on merit and character</p>
             </p>
             <p className="education-honors-list">
@@ -43,10 +43,12 @@ function Resume() {
             </p>
             </p>
         </div>
+
         <div className="experience-container fade-in2">
           <h2 className="sub-header">PROFESSIONAL</h2>
           <h2 className="sub-header header-pad">EXPERIENCE</h2>
-          <p className="resume-info">something something seomthing</p>
+          <h3 className="resume-info">Independent Software Consultant</h3>
+          <h3 className="resume-info">Financial Analyst</h3>
         </div>
         <div className="technical-container fade-in3">
           <h2 className="sub-header">TECHNICAL</h2>
