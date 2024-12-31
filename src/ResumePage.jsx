@@ -30,16 +30,22 @@ function Resume() {
             <strong>Honors: </strong>
             <p className="education-honors-list">
               Michael Ice Memorial Scholarship
-              <p className="list-desc">- Issued September 2022 by the Robins School of Business Faculty</p>
-              <p className="list-desc">- Awarded based on merit and character</p>
+              <ul className="list-desc-list">
+                <li>Issued September 2022 by the Robins School of Business Faculty</li>
+                <li>Awarded based on merit and character.</li>
+              </ul>
             </p>
             <p className="education-honors-list">
               Dean's List
-              <p className="list-desc">- Fall 2021, Spring 2022, Spring 2024</p>
+              <ul className="list-desc-list">
+                <li>Fall 2021, Spring 2022, Spring 2024</li>
+              </ul>
             </p>
             <p className="education-honors-list">
               A-List
-              <p className="list-desc">- Spring 2022, Spring 2024</p>
+              <ul className="list-desc-list">
+                <li>Spring 2022, Spring 2024</li>
+              </ul>
             </p>
             </p>
         </div>
@@ -74,10 +80,62 @@ function Resume() {
             </ul>
           </p>
         </div>
+
         <div className="technical-container fade-in3">
           <h2 className="sub-header">TECHNICAL</h2>
           <h2 className="sub-header header-pad">SKILLS</h2>
-          <p className="resume-info">something something seomthing</p>
+
+          <p className="resume-info"><strong>Programming Languages: </strong>
+            <ul className="list-desc-list">
+              <div className='tech-skills-flex'>
+                <li>Python</li>
+                <li>C++</li>
+                <li>Java</li>
+              </div>
+
+              <div className='tech-skills-flex'>
+                <li>JavaScript</li>
+                <li>MIPS Assembly</li>
+              </div>
+            </ul>
+          </p>
+
+          <p className="resume-info"><strong>Web Development: </strong>
+            <ul className="list-desc-list">
+              <li>Certification: Responsive Web Design</li>
+              <div className='tech-skills-flex'>
+                <li>CSS</li>
+                <li>HTML</li>
+              </div>
+
+              <div className='tech-skills-flex'>
+                <li>React</li>
+                <li>JSX</li>
+              </div>
+            </ul>
+          </p>
+
+          <p className="resume-info"><strong>Software Development & Methodologies: </strong>
+            <ul className="list-desc-list">
+              <div className='tech-skills-flex'>
+                <li>Agile Development</li>
+                <li>Scrum</li>
+              </div>
+              <div className='tech-skills-flex'>
+                <li>Project Management</li>
+                <li>GitHub</li>
+              </div>
+            </ul>
+          </p>
+
+          <p className="resume-info"><strong>Database Management: </strong>
+            <ul className="list-desc-list">
+              <div className='tech-skills-flex'>
+                <li>SQL</li>
+              </div>
+            </ul>
+          </p>
+          
         </div>
       </div>
     </div>
