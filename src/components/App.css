@@ -1,0 +1,8 @@
+.App {
+  background-color: #34495E;
+  min-width: 1400px;
+  height: 100vh;
+  z-index: -1;
+  overflow-x: auto;
+  overflow-y: auto;
+}
