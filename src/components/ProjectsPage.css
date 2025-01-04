@@ -1,9 +1,42 @@
 .projects-container {
-  padding-top: 250px;
+  text-align: center;
+  padding-top: 200px;
   color: white;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
   gap: 20px;
-  
+}
+
+.projectsTitle {
+  font-size: 60px;
+}
+
+.projectTitle {
+  margin-top: 150px;
+  margin-bottom: 20px;
+}
+
+.projectLink {
+  color: white;
+}
+
+.projectLink:hover {
+  color: black;
+}
+
+.leftFlex, .rightFlex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+
+  margin-top: 20px;
+}
+
+.projectImage {
+  height: 400px;
+  width: 600px;
+  object-fit: cover;
+}
+
+.bottom {
+  margin-bottom: 100px;
 }

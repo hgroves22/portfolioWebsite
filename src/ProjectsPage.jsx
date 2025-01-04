@@ -6,20 +6,30 @@ import bookImage from './assets/book.jpg'
 function Projects() {
   return (
     <div className="projects-container">
+      <h1 className='projectsTitle'>Here Are Some Of My Projects!</h1>
       {projectList.map((project, index) => (
         <div key={index} className="project-card">
-          <h3>{project.title}</h3>
-          <div className='side'>
-            <p>{project.description}</p>
-
-            <img src={bookImage}></img>
-          </div>
-
-          <a href={project.link} target="_blank" rel="noopener noreferrer">
+          <h2 className="projectTitle">{project.title}</h2>
+          <a className="projectLink" href={project.link} target="_blank" rel="noopener noreferrer">
             Visit Project
           </a>
+          
+          {project.side == 'left' ? (
+            <div className='leftFlex'>
+              <p>{project.description}</p>
+
+              <img className="projectImage" src={bookImage}></img>
+            </div>
+          ) : (
+            <div className='rightFlex'>
+              <img className="projectImage" src={bookImage}></img>
+              <p>{project.description}</p>
+            </div>
+          )}
+
         </div>
       ))}
+      <div className='bottom'></div>
     </div>
   );
 }
