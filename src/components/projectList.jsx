@@ -1,4 +1,4 @@
-const projects = [
+const projectList = [
   {
     title: "project1",
     description: "something",
@@ -18,3 +18,5 @@ const projects = [
     image: "",
   }
 ]
+
+export default projectList

@@ -1,14 +1,14 @@
 import React from 'react'
 import './components/ProjectsPage.css'
-import projects from './components/projects.js'
-
+import projectList from './components/projectList';
 
 
 function Projects() {
 
   return(
-   <div>
-   </div>
+    <div>
+      
+    </div>
   );
 }
 
