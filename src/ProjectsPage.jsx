@@ -1,13 +1,14 @@
 import React from 'react'
-import './components/ResumePage.css'
+import './components/ProjectsPage.css'
+import projects from './components/projects.js'
 
 
 
 function Projects() {
 
   return(
-    <div>
-    </div>
+   <div>
+   </div>
   );
 }
 
