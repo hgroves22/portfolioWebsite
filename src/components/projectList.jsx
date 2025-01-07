@@ -30,6 +30,14 @@ const projectList = [
     image: "../assets/book.jpg",
     side: "left",
     tester: "no",
+  },
+  {
+    title: "project4",
+    description: "something",
+    link: "something",
+    image: "../assets/book.jpg",
+    side: "left",
+    tester: "no",
   }
 ]
 

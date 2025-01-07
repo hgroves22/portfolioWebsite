@@ -7,7 +7,6 @@
 }
 
 .projectCard {
-  position: relative;
   width: 1000px;
   height: 600px;
   border: 3px solid black;
@@ -17,10 +16,13 @@
   padding-left: 50px;
   padding-right: 50px;
   transition: transform 0.3s ease;
+  transition: height 1s ease;
+  overflow-y: auto;
 }
 
 .projectCard:hover {
-  transform: translateY(-30px);
+  transform: translateY(-20px);
+  height: 1000px;
 }
 
 .projectsTitle {
@@ -33,11 +35,12 @@
 }
 
 .projectLink {
-  color: white;
+  font-size: 1.2rem;
+  color: #D1D8D9;;
 }
 
 .projectLink:hover {
-  color: black;
+  color: white;
 }
 
 .leftFlex, .rightFlex {
@@ -71,6 +74,7 @@
     display: flex;
     gap: 50px;
     justify-content: center;
-    margin-bottom: 40px;
+    margin-bottom: 200px;
+    transition: all 1s ease; /* Transition for flex layout */
   }
 }
