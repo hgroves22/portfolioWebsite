@@ -1,7 +1,7 @@
 const projectList = [
   {
     title: "project1",
-    description: "",
+    description: "ahhhhhhhhhhhhhhhhhhhhh hdsaoifhadoishfioadh oaeifhaoid aodifh aodih aofih",
     link: "something",
     image: "../assets/book.jpg",
     side: "left",

@@ -4,11 +4,21 @@ import projectList from './components/projectList';
 import bookImage from './assets/book.jpg'
 
 function Projects() {
+  const groupedProjects = [];
+
+  for (let i = 0; i < projectList.length; i+= 2) {
+    groupedProjects.push(projectList.slice(i, i+2));
+  }
+
+
   return (
     <div className="projects-container">
       <h1 className='projectsTitle'>Here Are Some Of My Projects!</h1>
-      {projectList.map((project, index) => (
-        <div key={index} className='projectCard'>
+
+      {groupedProjects.map((group, index) => (
+        <div key={index} className="groupedFlex">
+        {group.map((project, subIndex) => (
+          <div key={subIndex} className='projectCard'>
           <h2 className="projectTitle">{project.title}</h2>
           <a className="projectLink" href={project.link} target="_blank" rel="noopener noreferrer">
             Visit Project
@@ -26,7 +36,8 @@ function Projects() {
               <p>{project.description}</p>
             </div>
           )}
-
+         </div>
+        ))}
         </div>
       ))}
       <div className='bottom'></div>
