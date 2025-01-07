@@ -1,10 +1,11 @@
 const projectList = [
   {
     title: "project1",
-    description: "something",
+    description: "",
     link: "something",
     image: "../assets/book.jpg",
     side: "left",
+    tester: "yes",
   },
   {
     title: "project2",
@@ -12,6 +13,7 @@ const projectList = [
     link: "something",
     image: "../assets/book.jpg",
     side: "right",
+    tester: "yes",
   },
   {
     title: "project3",
@@ -19,6 +21,15 @@ const projectList = [
     link: "something",
     image: "../assets/book.jpg",
     side: "left",
+    tester: "no",
+  },
+  {
+    title: "project4",
+    description: "something",
+    link: "something",
+    image: "../assets/book.jpg",
+    side: "left",
+    tester: "no",
   }
 ]
 

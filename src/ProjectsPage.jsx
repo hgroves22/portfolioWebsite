@@ -8,7 +8,7 @@ function Projects() {
     <div className="projects-container">
       <h1 className='projectsTitle'>Here Are Some Of My Projects!</h1>
       {projectList.map((project, index) => (
-        <div key={index} className="project-card">
+        <div key={index} className='projectCard'>
           <h2 className="projectTitle">{project.title}</h2>
           <a className="projectLink" href={project.link} target="_blank" rel="noopener noreferrer">
             Visit Project
