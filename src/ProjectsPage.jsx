@@ -23,19 +23,20 @@ function Projects() {
           <a className="projectLink" href={project.link} target="_blank" rel="noopener noreferrer">
             Visit Project
           </a>
-          
           {project.side == 'left' ? (
             <div className='leftFlex'>
               <p>{project.description}</p>
 
-              <img className="projectImage" src={bookImage}></img>
+              <img className="projectImage" src={project.image}></img>
             </div>
           ) : (
             <div className='rightFlex'>
-              <img className="projectImage" src={bookImage}></img>
+              <img className="projectImage" src={project.image}></img>
               <p>{project.description}</p>
             </div>
           )}
+
+        <p className="projectSummary">{project.summary}</p>
          </div>
         ))}
         </div>

@@ -14,7 +14,7 @@ function Hero() {
         <div className="hero-content">
           <h1 className="title hero-fade-in1">Hi, I'm Henry!</h1>
           <h1>A recent graduate and an upcoming developer</h1>
-          <p>I love to work on projects and excited to bring the love into the professional world</p>
+          <p className="hero-desc">I love to work on projects and excited to bring the love into the professional world</p>
 
           <p className="socials-desc">Connect with  me on LinkedIn or come take a look at my GitHub repo!</p>
 

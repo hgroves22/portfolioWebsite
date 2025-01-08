@@ -4,6 +4,7 @@
   padding-top: 200px;
   color: #D1D8D9;
   gap: 20px;
+  overflow: hidden;
 }
 
 .projectCard {
@@ -17,7 +18,7 @@
   padding-right: 50px;
   transition: transform 0.3s ease;
   transition: height 1s ease;
-  overflow-y: auto;
+  overflow: hidden;
 }
 
 .projectCard:hover {
@@ -31,7 +32,7 @@
 
 .projectTitle {
   font-size: 3rem;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 
 .projectLink {
@@ -55,7 +56,6 @@
 .projectImage {
   height: 400px;
   width: 600px;
-  object-fit: cover;
 }
 
 .bottom {
@@ -74,7 +74,7 @@
     display: flex;
     gap: 50px;
     justify-content: center;
-    margin-bottom: 200px;
+    margin-bottom: 100px;
     transition: all 1s ease; /* Transition for flex layout */
   }
 }
