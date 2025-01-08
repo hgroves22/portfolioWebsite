@@ -25,7 +25,7 @@
   opacity: 0;
 }
 .resume-container {
-  color: #666;
+  color: #2C3E50;
   height: 75vh;
   max-height: 1250px;
   display: grid;
@@ -43,7 +43,7 @@
   padding-left: 10px;
   padding-right: 10px;
   line-height: 10px;
-  color: #34495E;
+  color: #2C3E50;
   display: flex;
   justify-content: center;
 }
@@ -79,10 +79,6 @@
 
 .major-minor {
   padding-left: 15px;
-}
-
-.page {
-  background-color: #34495E;
 }
 
 .education-honors-list {
