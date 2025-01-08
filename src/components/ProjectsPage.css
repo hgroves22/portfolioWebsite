@@ -14,8 +14,8 @@
   margin-top: 50px;
   margin-bottom: 50px;
   
-  padding-left: 50px;
-  padding-right: 50px;
+  padding-left: 30px;
+  padding-right: 30px;
   transition: transform 0.3s ease;
   transition: height 1s ease;
   overflow: hidden;
@@ -28,6 +28,11 @@
 
 .projectsTitle {
   font-size: 5rem;
+}
+
+.projectsSubtitle {
+  font-size: 2.5rem;
+  font-weight: normal;
 }
 
 .projectTitle {
@@ -56,6 +61,12 @@
 .projectImage {
   height: 400px;
   width: 600px;
+}
+
+.projectInfo {
+  width: 100%;
+  box-sizing: border-box;
+  text-align: left;
 }
 
 .bottom {

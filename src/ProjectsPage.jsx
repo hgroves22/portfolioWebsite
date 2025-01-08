@@ -14,6 +14,7 @@ function Projects() {
   return (
     <div className="projects-container">
       <h1 className='projectsTitle'>Here Are Some Of My Projects!</h1>
+      <h2 className='projectsSubtitle'>Hover over the projects to learn more!</h2>
 
       {groupedProjects.map((group, index) => (
         <div key={index} className="groupedFlex">
@@ -25,14 +26,24 @@ function Projects() {
           </a>
           {project.side == 'left' ? (
             <div className='leftFlex'>
-              <p>{project.description}</p>
+              <div className="projectInfo">
+                <ul>
+                  <p>Timeline</p>
+                  <li>{project.timeline}</li>
+                  <p>Languages & Libraries</p>
+                  <li>{project.langLib}</li>
+                  <p>Misc Info</p>
+                  <li>Scope: {project.scope}</li>
+                  <li>Collaborators: {project.collab}</li>
+                </ul>
+              </div>
 
               <img className="projectImage" src={project.image}></img>
             </div>
           ) : (
             <div className='rightFlex'>
               <img className="projectImage" src={project.image}></img>
-              <p>{project.description}</p>
+              <p>{project.summary}</p>
             </div>
           )}
 
