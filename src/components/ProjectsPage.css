@@ -1,10 +1,11 @@
 .projects-container {
   text-align: center;
   margin: 0 auto;
-  padding-top: 200px;
+  padding-top: 150px;
   color: #D1D8D9;
   gap: 20px;
   overflow: hidden;
+  background-color: #2C3E50;
 }
 
 .projectCard {
@@ -90,14 +91,14 @@
 }
 
 
-@media (max-width: 2500px) {
+@media (max-width: 3000px) {
   .projectCard {
     margin: 0 auto;
     margin-top: 100px;
   }
 }
 
-@media (min-width: 2500px) {
+@media (min-width: 3000px) {
   .groupedFlex {
     display: flex;
     gap: 50px;

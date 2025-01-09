@@ -24,6 +24,11 @@
   animation-fill-mode: forwards;
   opacity: 0;
 }
+
+.resume-page {
+  background-color: #2C3E50;
+}
+
 .resume-container {
   color: #2C3E50;
   height: 75vh;

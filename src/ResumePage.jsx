@@ -6,7 +6,7 @@ import './components/ResumePage.css'
 function Resume() {
 
   return(
-    <div className='page'>
+    <div className='resume-page'>
       <div className="resume-container">
         <div className="education-container fade-in1">
           <h2 className="sub-header header-pad">EDUCATION</h2>

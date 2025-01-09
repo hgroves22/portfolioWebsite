@@ -27,6 +27,14 @@ function Projects() {
           {project.side == 'left' ? (
             <div className='leftFlex'>
               <div className="projectInfo">
+              </div>
+
+              <img className="projectImage" src={project.image}></img>
+            </div>
+          ) : (
+            <div className='rightFlex'>
+              <img className="projectImage" src={project.image}></img>
+              <div className="projectInfo">
                 <ul>
                   <p className="infoHeader">Timeline</p>
                   <li className="projectBullet">{project.timeline}</li>
@@ -37,13 +45,6 @@ function Projects() {
                   <li className="projectBullet">Collaborators: {project.collab}</li>
                 </ul>
               </div>
-
-              <img className="projectImage" src={project.image}></img>
-            </div>
-          ) : (
-            <div className='rightFlex'>
-              <img className="projectImage" src={project.image}></img>
-              <p>{project.summary}</p>
             </div>
           )}
 

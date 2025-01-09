@@ -6,7 +6,7 @@ const projectList = [
     title: "This Website",
     link: "something",
     timeline: "Dec 2024 - Present",
-    langLib: "something",
+    langLib: "React, JSX, CSS",
     scope: "SPA with multiple pages, navigated using React Router",
     collab: "Solo Project",
     image: "src/assets/websiteProject.jpg",
