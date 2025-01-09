@@ -28,13 +28,13 @@ function Projects() {
             <div className='leftFlex'>
               <div className="projectInfo">
                 <ul>
-                  <p>Timeline</p>
-                  <li>{project.timeline}</li>
-                  <p>Languages & Libraries</p>
-                  <li>{project.langLib}</li>
-                  <p>Misc Info</p>
-                  <li>Scope: {project.scope}</li>
-                  <li>Collaborators: {project.collab}</li>
+                  <p className="infoHeader">Timeline</p>
+                  <li className="projectBullet">{project.timeline}</li>
+                  <p className="infoHeader">Languages & Libraries</p>
+                  <li className="projectBullet">{project.langLib}</li>
+                  <p className="infoHeader">Misc Info</p>
+                  <li className="projectBullet">Scope: {project.scope}</li>
+                  <li className="projectBullet">Collaborators: {project.collab}</li>
                 </ul>
               </div>
 
@@ -47,6 +47,7 @@ function Projects() {
             </div>
           )}
 
+        <p className="summary-title">Summary</p>
         <p className="projectSummary">{project.summary}</p>
          </div>
         ))}
