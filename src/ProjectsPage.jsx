@@ -27,6 +27,15 @@ function Projects() {
           {project.side == 'left' ? (
             <div className='leftFlex'>
               <div className="projectInfo">
+                <ul>
+                  <p className="infoHeader">Timeline</p>
+                  <li className="projectBullet">{project.timeline}</li>
+                  <p className="infoHeader">Languages & Libraries</p>
+                  <li className="projectBullet">{project.langLib}</li>
+                  <p className="infoHeader">Misc Info</p>
+                  <li className="projectBullet">Scope: {project.scope}</li>
+                  <li className="projectBullet">Collaborators: {project.collab}</li>
+                </ul>
               </div>
 
               <img className="projectImage" src={project.image}></img>
@@ -49,7 +58,9 @@ function Projects() {
           )}
 
         <p className="summary-title">Summary</p>
-        <p className="projectSummary">{project.summary}</p>
+        <p className="projectSummary">
+          <div style={{ textIndent: "2em" }}>
+          {project.summary}</div></p>
          </div>
         ))}
         </div>

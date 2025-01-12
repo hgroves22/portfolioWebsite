@@ -11,6 +11,7 @@
 .projectCard {
   width: 1200px;
   height: 700px;
+  background-color: #3C5770;
   border: 5px solid black;
   margin-top: 50px;
   margin-bottom: 50px;
@@ -19,7 +20,7 @@
   padding-right: 30px;
   transition: transform 0.3s ease;
   transition: height 1s ease;
-  overflow: hidden;
+  overflow: hidden; 
 }
 
 .projectCard:hover {
@@ -87,7 +88,15 @@
 }
 
 .summary-title {
-  font-size: 2.5rem;
+  font-size: 3rem;
+  margin-bottom: 0px;
+}
+
+.projectSummary {
+  margin-top: 20px;
+  text-align: left;
+  font-size: 2rem;
+  line-height: 60px;
 }
 
 
