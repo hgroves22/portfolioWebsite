@@ -4,8 +4,8 @@ header {
   left: 0;
   right: 0;
   width: 100%;
-  background-color: #D1D8D9;
-  color: #34495E;
+  background-color: #BDC3C7;
+  color: #2C3E50;
   display: flex;
   align-items: center; /* Vertically centers the items */
   padding: 0 20px; /* Adds padding to left and right */
@@ -26,7 +26,7 @@ header {
   display: flex;
   gap: 30px; /* Adds space between navigation items */
   margin: 0;
-  color: #34495E;
+  color: #2C3E50;
 }
 
 .nav-links li {
@@ -41,7 +41,7 @@ header {
 }
 
 .nav-links a:visited {
-  color: #34495E;/* Optional hover effect */
+  color: #2C3E50;/* Optional hover effect */
 }
 
 .nav-links a:hover {
