@@ -23,7 +23,7 @@ const projectList = [
     collab: "Four-Person Team",
     image: "src/assets/AgileCLI.jpg",
     side: "left",
-    summary: "A fully functional management system written in C++ that enables users to send custom-designed robots to clean simulated rooms through a Command Line Interface (CLI). Throughout this four-month project, my team applied the Scrum framework to practice effective Agile development. This project was developed by me and three classmates in the fall of 2023 as part of our Software Engineering elective and we used  GitHub to collaborate with student developers and resolve 90+ distinct issues.",
+    summary: "A fully functional management system written in C++ that enables users to send custom-designed robots to clean simulated rooms through a Command Line Interface (CLI). Throughout this four-month project, my team applied the Scrum framework to practice effective Agile development. This backend focused project was developed by me and three classmates in the fall of 2023 as part of our Software Engineering elective and we used  GitHub to collaborate with student developers and resolve 90+ distinct issues.",
   },
   {
     id: id++,
@@ -43,11 +43,11 @@ const projectList = [
     link: "https://github.com/hgroves22/trafficSimulator",
     timeline: "Feb 2023 - May 2023",
     langLib: "C++",
-    scope: "",
+    scope: "Developing a traffic simulation that follows by the modern rules of the road",
     collab: "Two-Person Team",
-    image: "src/assets/websiteProject.jpg",
+    image: "src/assets/TrafficSim.jpg",
     side: "left",
-    summary: "This is summary",
+    summary: "I recongize as my first big project that I have developed as a coder. With a given animator, we were assigned to develop the backend of the code which was able to read a test file, given in a specific format, ",
   }
 ]
 
