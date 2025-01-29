@@ -32,10 +32,12 @@
 }
 
 .title-para {
-  font-size: 8rem;
+  text-align: center;
+  font-size: 7rem;
 }
 
 .h1-para {
+  text-align: center;
   font-size: 3rem;
 }
 
@@ -45,6 +47,13 @@
 
 .hero-para {
   font-size: 2rem;
+}
+
+.hero-desc {
+  padding-top: 50px;
+  max-width: 800px;
+  line-height: 2;
+  margin: auto;
 }
 
 .socials-desc {
