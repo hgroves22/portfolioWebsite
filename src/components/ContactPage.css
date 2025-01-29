@@ -1,0 +1,37 @@
+.cp-main {
+  padding-top: 300px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+.cp-side {
+  width: 700px;
+  height: 700px;
+  border: 4px solid black;;
+}
+
+.cp-left-flex {
+  color: #D1D8D9;
+}
+
+.cp-left-header {
+  padding-top: 100px;
+  font-size: 4rem;
+}
+
+.cp-left-sub {
+  color: #D1D8D9;  
+  padding-top: 20px;
+  font-size: 3rem;
+}
+
+.cp-left-sub:hover {
+  color: white;
+}
+
+.cp-left-sub:visited {
+  color: white;
+}
