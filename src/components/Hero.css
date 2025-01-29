@@ -32,12 +32,10 @@
 }
 
 .title-para {
-  text-align: center;
   font-size: 7rem;
 }
 
 .h1-para {
-  text-align: center;
   font-size: 3rem;
 }
 
@@ -53,7 +51,6 @@
   padding-top: 50px;
   max-width: 800px;
   line-height: 2;
-  margin: auto;
 }
 
 .socials-desc {
