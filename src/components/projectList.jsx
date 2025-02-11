@@ -11,7 +11,7 @@ const projectList = [
     collab: "Solo Project",
     image: "src/assets/websiteProject.jpg",
     side: "right",
-    summary: "I started building this website on 12/12/2024 as a side project to showcase my skills, projects, and experience. The site is built from scratch using JSX and CSS with the React library, focusing on creating an intuitive user experience. I earned a certification in Responsive Web Design on 12/9/2024, which provided me with foundational knowledge in HTML and CSS. This project allows me to apply and expand on what I learned, creating a personal website that reflects my technical abilities and creativity.",
+    summary: "I started building this website on December 12, 2024 as a side project to showcase my skills, projects, and experience. The site is built from scratch using JSX and CSS with the React library, focusing on creating an intuitive user experience. I earned a certification in Responsive Web Design on December 9, 2024, which provided me with foundational knowledge in HTML and CSS. This project allows me to apply and expand on what I learned to reflect my technical abilities and creativity.",
   },
   {
     id: id++,
@@ -23,7 +23,7 @@ const projectList = [
     collab: "Four-Person Team",
     image: "src/assets/AgileCLI.jpg",
     side: "left",
-    summary: "A fully functional management system written in C++ that enables users to send custom-designed robots to clean simulated rooms through a Command Line Interface (CLI). Throughout this four-month project, my team applied the Scrum framework to practice effective Agile development. This backend focused project was developed by me and three classmates in the fall of 2023 as part of our Software Engineering elective and we used  GitHub to collaborate with student developers and resolve 90+ distinct issues.",
+    summary: "A fully functional management system written in C++ that enables users to send custom-designed robots to clean simulated rooms through a Command Line Interface (CLI). Throughout this four-month project, my team applied the Scrum framework to practice effective Agile development. This backend focused project was developed by me and three classmates in the fall of 2023 as part of our Software Engineering elective. We worked with GitHub to collaborate with student developers and resolve 90+ distinct issues.",
   },
   {
     id: id++,
@@ -47,7 +47,7 @@ const projectList = [
     collab: "Two-Person Team",
     image: "src/assets/TrafficSim.jpg",
     side: "left",
-    summary: "I recongize as my first big project that I have developed as a coder. With a given animator, we were assigned to develop the backend of the code which was able to read a test file, given in a specific format, ",
+    summary: "I recognize this as my first big project that I have developed as a coder. Working with a given animator, we were assigned to develop the backend, which could read a test file in a specific format, and run a simulation that followed traffic rules. ",
   }
 ]
 
