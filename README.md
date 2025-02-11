@@ -6,4 +6,6 @@ I started building this website on 12/12/2024 as a side project to showcase my s
 
 ### Extra Information
 
-I used the React Router library to switch between different pages in my website. This was the first time I used React Router so it was exciting to learn this powerful library. Being able to define and manage navigation within this single-page application (SPA) was very helpful when trying to hyperlink certain aspects of the page.
+I used the **React Router** library to switch between different pages in my website. This was the first time I used React Router so it was exciting to learn this powerful library. Being able to define and manage navigation within this single-page application (SPA) was very helpful when trying to hyperlink certain aspects of the page.
+
+I also used **Formspree** to handle form submissions and receive emails directly. This was my first time integrating Formspree, and I found it to be a simple and efficient way to manage direct email requests with minimal setup. I wanted my website to include my contact information along with a way for users to contact me directly, and Formspree provided a great solution for that.
