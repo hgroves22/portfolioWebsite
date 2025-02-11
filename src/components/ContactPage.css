@@ -35,3 +35,40 @@
 .cp-left-sub:visited {
   color: white;
 }
+
+.cp-right-header {
+  color: #D1D8D9;
+  padding-top: 10px;
+  text-align:center;
+  font-size: 4rem;
+}
+
+input {
+  background-color: white;
+  width: 70%;
+  font-size: 20px;
+  padding: 16px 16px;
+  border-color: black;
+  margin-bottom: 25px;
+}
+
+textarea {
+  background-color: white;
+  width: 70%;
+  font-size: 20px;
+  padding: 16px 16px;
+  margin-bottom: 35px;
+}
+
+.cp-submit {
+  background-color: #D1D8D9;
+  border-radius: 20px;
+  border: 2px solid #2980B9;
+  font-size: 22px;
+  padding: 10px 20px;
+}
+
+.cp-submit:hover {
+  cursor: pointer;
+  opacity: 80%;
+}

@@ -13,8 +13,8 @@ function Hero() {
       <section className="hero">
         <div className="hero-content">
           <h1 className="title-para hero-fade-in1">Hi, I'm Henry!</h1>
-          <h1 className="h1-para">A recent graduate and an upcoming developer</h1>
-          <p className="hero-para hero-desc">Since November 2024, I've been working as an Independent Software Consultant, working with three clients on their innovative software projects, while actively exploring full-time opportunities in Software Engineering.
+          <h1 className="h1-para">A recent graduate and an junior developer</h1>
+          <p className="hero-para hero-desc">Since November 2024, I've been working as an Independent Software Consultant, working with three clients on their innovative software projects, while actively exploring full-time opportunities.
 </p>
 
           <p className="hero-para socials-desc">Connect with  me on LinkedIn or come take a look at my GitHub repo!</p>
