@@ -1,7 +1,6 @@
 import React from 'react';
 import './components/ProjectsPage.css';
 import projectList from './components/projectList';
-import bookImage from './assets/book.jpg'
 
 function Projects() {
   const groupedProjects = [];
